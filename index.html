@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>وطن كودر — حلول برمجية متكاملة</title>
+  <meta name="description" content="وطن كودر شركة برمجيات عراقية متخصصة في تطوير تطبيقات الموبايل والحاسوب ومواقع الويب. نبني مشروعك من الفكرة حتى الإطلاق." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <div class="logo-mark">W</div>
+        <span>وطن <strong>كودر</strong></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="القائمة الرئيسية">
+        <a href="#services">الخدمات</a>
+        <a href="#process">آلية العمل</a>
+        <a href="#portfolio">المشاريع</a>
+        <a href="#testimonials">العملاء</a>
+        <a href="#contact" class="btn-cta-nav">تواصل معنا</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="فتح القائمة" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-layer"></div>
+    <div class="container hero-grid">
+      <div class="hero-text" data-reveal>
+        <div class="eyebrow">شركة برمجيات عراقية</div>
+        <h1>نحوّل فكرتك إلى<br/><span class="accent-text">منتج رقمي ناجح</span></h1>
+        <p>نطوّر تطبيقات الموبايل والحاسوب ومواقع الويب بمعايير احترافية عالية، مع الالتزام بالجدول الزمني وتسليم الكود المصدري كاملاً.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">ابدأ مشروعك</a>
+          <a href="#portfolio" class="btn-secondary">استعرض أعمالنا</a>
+        </div>
+      </div>
+      <div class="hero-visual" data-reveal-delay>
+        <div class="hero-img-frame">
+          <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14431b9?w=720&q=85&fit=crop"
+            alt="مطور يكتب كوداً على شاشة"
+            loading="eager"
+            width="720" height="480"
+          />
+          <div class="img-badge badge-a">
+            <div class="badge-num">+50</div>
+            <div class="badge-lbl">مشروع منجز</div>
+          </div>
+          <div class="img-badge badge-b">
+            <div class="badge-num">98%</div>
+            <div class="badge-lbl">رضا العملاء</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="overline">خدماتنا</span>
+        <h2>ماذا نقدّم</h2>
+        <p>نغطّي كامل دورة حياة المنتج الرقمي — من التصميم والبرمجة حتى النشر والصيانة.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-reveal>
+          <div class="svc-icon">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=80&q=80&fit=crop" alt="" aria-hidden="true"/>
+          </div>
+          <h3>تطبيقات الموبايل</h3>
+          <p>تطبيقات iOS وAndroid بتجربة مستخدم سلسة، باستخدام Flutter أو React Native وفق متطلبات المشروع.</p>
+          <ul>
+            <li>تصميم UI/UX متكامل</li>
+            <li>تكامل مع بوابات الدفع والخرائط</li>
+            <li>نشر على متجري App Store وGoogle Play</li>
+          </ul>
+        </div>
+
+        <div class="service-card featured" data-reveal>
+          <div class="svc-icon">
+            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=80&q=80&fit=crop" alt="" aria-hidden="true"/>
+          </div>
+          <h3>مواقع وتطبيقات الويب</h3>
+          <p>مواقع تجارية ومنصات ويب كاملة الوظائف بأحدث تقنيات الفرونت إند والباك إند.</p>
+          <ul>
+            <li>تصميم متجاوب لجميع الأجهزة</li>
+            <li>تحسين محركات البحث SEO</li>
+            <li>لوحة تحكم سهلة الاستخدام</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="svc-icon">
+            <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=80&q=80&fit=crop" alt="" aria-hidden="true"/>
+          </div>
+          <h3>تطبيقات سطح المكتب</h3>
+          <p>برامج Windows وmacOS للشركات والمؤسسات، مع تكامل سهل مع الأنظمة الحالية.</p>
+          <ul>
+            <li>واجهات حديثة وسريعة الاستجابة</li>
+            <li>تكامل مع أنظمة ERP وCRM</li>
+            <li>تحديثات تلقائية</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="svc-icon">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=80&q=80&fit=crop" alt="" aria-hidden="true"/>
+          </div>
+          <h3>حلول الذكاء الاصطناعي</h3>
+          <p>دمج قدرات الذكاء الاصطناعي في تطبيقاتك الحالية أو بناء حلول مخصصة من الصفر.</p>
+          <ul>
+            <li>بوتات محادثة ذكية</li>
+            <li>تحليل البيانات والتنبؤ</li>
+            <li>معالجة النصوص والصور</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="svc-icon">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=80&q=80&fit=crop" alt="" aria-hidden="true"/>
+          </div>
+          <h3>المتاجر الإلكترونية</h3>
+          <p>متاجر متكاملة مع بوابات الدفع المحلية والعالمية، وإدارة المخزون والطلبات.</p>
+          <ul>
+            <li>بوابات الدفع العراقية والدولية</li>
+            <li>إدارة المنتجات والمخزون</li>
+            <li>تقارير المبيعات</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="svc-icon">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=80&q=80&fit=crop" alt="" aria-hidden="true"/>
+          </div>
+          <h3>الاستضافة والبنية التحتية</h3>
+          <p>إعداد وإدارة الخوادم السحابية على AWS وGoogle Cloud وFirebase.</p>
+          <ul>
+            <li>نشر تلقائي CI/CD</li>
+            <li>نسخ احتياطية دورية</li>
+            <li>مراقبة الأداء والأمان</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section process bg-subtle" id="process">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="overline">آلية العمل</span>
+        <h2>كيف نعمل معاً</h2>
+        <p>منهجية واضحة ومجرّبة تضمن تسليم مشروعك في الوقت المحدد وبالجودة المطلوبة.</p>
+      </div>
+      <div class="process-list">
+        <div class="process-item" data-reveal>
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <h3>الاستشارة وتحليل المتطلبات</h3>
+            <p>جلسة مجانية لفهم مشروعك، تحديد الميزات المطلوبة، واختيار التقنيات الملائمة. ننتهي بوثيقة متطلبات واضحة وجدول زمني مفصّل.</p>
+          </div>
+        </div>
+        <div class="process-item" data-reveal>
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <h3>التصميم والنماذج التفاعلية</h3>
+            <p>نصمم واجهات المستخدم ونبني نماذج Figma قابلة للنقر قبل أي سطر كود، لضمان توافق الرؤية من البداية.</p>
+          </div>
+        </div>
+        <div class="process-item" data-reveal>
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <h3>التطوير والبرمجة</h3>
+            <p>يعمل فريقنا وفق منهجية Agile بسبرنتات أسبوعية. تحصل على تقرير تقدّم كل أسبوع وصلاحية مراجعة البيئة التجريبية في أي وقت.</p>
+          </div>
+        </div>
+        <div class="process-item" data-reveal>
+          <div class="step-num">04</div>
+          <div class="step-body">
+            <h3>الاختبار وضمان الجودة</h3>
+            <p>اختبار شامل على أجهزة ومتصفحات متعددة قبل التسليم. نرصد الأخطاء ونصلحها قبل أن تراها.</p>
+          </div>
+        </div>
+        <div class="process-item" data-reveal>
+          <div class="step-num">05</div>
+          <div class="step-body">
+            <h3>التسليم والدعم</h3>
+            <p>تسليم الكود المصدري الكامل وملكيته لك. ضمان مجاني 60 يوماً بعد الإطلاق مع صيانة اختيارية مستمرة.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="overline">المشاريع</span>
+        <h2>من أعمالنا</h2>
+        <p>مشاريع منجزة في قطاعات متنوعة.</p>
+      </div>
+      <div class="pf-filter" role="tablist" aria-label="تصفية المشاريع">
+        <button class="pf-btn active" data-filter="all" role="tab" aria-selected="true">الكل</button>
+        <button class="pf-btn" data-filter="mobile" role="tab" aria-selected="false">موبايل</button>
+        <button class="pf-btn" data-filter="web" role="tab" aria-selected="false">ويب</button>
+        <button class="pf-btn" data-filter="desktop" role="tab" aria-selected="false">سطح مكتب</button>
+      </div>
+      <div class="pf-grid" id="pfGrid">
+
+        <article class="pf-card" data-cat="mobile" data-reveal>
+          <div class="pf-thumb">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=640&q=80&fit=crop" alt="تطبيق توصيل" loading="lazy" width="640" height="360"/>
+            <div class="pf-hover-overlay">
+              <span class="pf-cat-tag">موبايل · Flutter</span>
+            </div>
+          </div>
+          <div class="pf-body">
+            <h4>تطبيق توصيل طلبات</h4>
+            <p>تطبيق iOS وAndroid مع تتبع الطلبات في الوقت الفعلي وتكامل مع خرائط Google.</p>
+          </div>
+        </article>
+
+        <article class="pf-card" data-cat="web" data-reveal>
+          <div class="pf-thumb">
+            <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=640&q=80&fit=crop" alt="منصة تعليمية" loading="lazy" width="640" height="360"/>
+            <div class="pf-hover-overlay">
+              <span class="pf-cat-tag">ويب · React</span>
+            </div>
+          </div>
+          <div class="pf-body">
+            <h4>منصة تعليمية</h4>
+            <p>نظام إدارة التعلم LMS مع دروس فيديو، اختبارات، وشهادات إتمام.</p>
+          </div>
+        </article>
+
+        <article class="pf-card" data-cat="mobile" data-reveal>
+          <div class="pf-thumb">
+            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=640&q=80&fit=crop" alt="تطبيق مالي" loading="lazy" width="640" height="360"/>
+            <div class="pf-hover-overlay">
+              <span class="pf-cat-tag">موبايل · React Native</span>
+            </div>
+          </div>
+          <div class="pf-body">
+            <h4>تطبيق محفظة مالية</h4>
+            <p>تطبيق لإدارة الحوالات المالية مع تشفير من طرف إلى طرف.</p>
+          </div>
+        </article>
+
+        <article class="pf-card" data-cat="web" data-reveal>
+          <div class="pf-thumb">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=640&q=80&fit=crop" alt="متجر إلكتروني" loading="lazy" width="640" height="360"/>
+            <div class="pf-hover-overlay">
+              <span class="pf-cat-tag">ويب · Next.js</span>
+            </div>
+          </div>
+          <div class="pf-body">
+            <h4>متجر إلكتروني متعدد البائعين</h4>
+            <p>منصة بيع وشراء مع لوحة تحكم للبائعين ودعم بوابات الدفع المحلية.</p>
+          </div>
+        </article>
+
+        <article class="pf-card" data-cat="desktop" data-reveal>
+          <div class="pf-thumb">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=640&q=80&fit=crop" alt="نظام مستشفى" loading="lazy" width="640" height="360"/>
+            <div class="pf-hover-overlay">
+              <span class="pf-cat-tag">سطح مكتب · Electron</span>
+            </div>
+          </div>
+          <div class="pf-body">
+            <h4>نظام إدارة عيادة</h4>
+            <p>برنامج لإدارة المرضى والمواعيد والمخزون الطبي مع تقارير يومية وشهرية.</p>
+          </div>
+        </article>
+
+        <article class="pf-card" data-cat="web" data-reveal>
+          <div class="pf-thumb">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=640&q=80&fit=crop" alt="نظام ذكاء اصطناعي" loading="lazy" width="640" height="360"/>
+            <div class="pf-hover-overlay">
+              <span class="pf-cat-tag">ويب · AI</span>
+            </div>
+          </div>
+          <div class="pf-body">
+            <h4>بوت خدمة عملاء ذكي</h4>
+            <p>نظام محادثة آلي يجيب على استفسارات العملاء ويوجّههم بدقة.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials bg-subtle" id="testimonials">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="overline">العملاء</span>
+        <h2>ماذا قال عملاؤنا</h2>
+      </div>
+      <div class="testi-grid">
+
+        <blockquote class="testi-card" data-reveal>
+          <div class="stars" aria-label="5 نجوم">★★★★★</div>
+          <p>"التزموا بالموعد تماماً والنتيجة تجاوزت توقعاتنا. التواصل كان واضحاً طوال المشروع."</p>
+          <footer class="testi-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80&fit=crop&crop=face" alt="محمد أحمد" loading="lazy" width="52" height="52"/>
+            <div>
+              <cite>محمد أحمد</cite>
+              <span>مدير تقني — شركة لوجستيك</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testi-card" data-reveal>
+          <div class="stars" aria-label="5 نجوم">★★★★★</div>
+          <p>"أعادوا بناء موقعنا وارتفعت المبيعات بشكل ملحوظ خلال الأشهر الأولى بعد الإطلاق."</p>
+          <footer class="testi-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80&fit=crop&crop=face" alt="سارة خالد" loading="lazy" width="52" height="52"/>
+            <div>
+              <cite>سارة خالد</cite>
+              <span>صاحبة متجر إلكتروني</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testi-card" data-reveal>
+          <div class="stars" aria-label="5 نجوم">★★★★★</div>
+          <p>"الدعم بعد التسليم ممتاز. كلما احتجنا شيئاً وجدنا الفريق متاحاً وسريعاً في الاستجابة."</p>
+          <footer class="testi-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&q=80&fit=crop&crop=face" alt="خالد عمر" loading="lazy" width="52" height="52"/>
+            <div>
+              <cite>خالد عمر</cite>
+              <span>مؤسس شركة ناشئة</span>
+            </div>
+          </footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section why-us">
+    <div class="container why-grid">
+      <div class="why-visual" data-reveal>
+        <img
+          class="why-img-main"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=680&q=85&fit=crop"
+          alt="فريق وطن كودر"
+          loading="lazy"
+          width="680" height="460"
+        />
+        <img
+          class="why-img-sub"
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=360&q=80&fit=crop"
+          alt="برمجة"
+          loading="lazy"
+          width="360" height="240"
+        />
+      </div>
+      <div class="why-text" data-reveal>
+        <span class="overline">لماذا وطن كودر</span>
+        <h2>نعامل مشروعك كأنه مشروعنا</h2>
+        <p>لا نكتفي بتنفيذ المطلوب — نقترح التحسينات، ننبّه على المخاطر، ونتأكد أن المنتج النهائي يحقق هدفه الفعلي.</p>
+        <div class="why-points">
+          <div class="why-pt">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>ملكية الكود كاملة لك</h4>
+              <p>عند الانتهاء تستلم كود المصدر والدومين والسيرفر — بدون قيود.</p>
+            </div>
+          </div>
+          <div class="why-pt">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>تقارير أسبوعية شفافة</h4>
+              <p>لن تتساءل أين وصل مشروعك — تقرير أسبوعي وصلاحية وصول للبيئة التجريبية دائماً.</p>
+            </div>
+          </div>
+          <div class="why-pt">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>ضمان 60 يوماً بعد التسليم</h4>
+              <p>أي خطأ يظهر بعد الإطلاق نصلحه مجاناً خلال 60 يوماً من تاريخ التسليم.</p>
+            </div>
+          </div>
+          <div class="why-pt">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>سعر ثابت بدون مفاجآت</h4>
+              <p>الاتفاق يكون على سعر ثابت من البداية — لا توجد رسوم إضافية مخفية.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGIES -->
+  <section class="section tech bg-subtle">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="overline">التقنيات</span>
+        <h2>الأدوات التي نعمل بها</h2>
+      </div>
+      <div class="tech-grid" data-reveal>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40" loading="lazy"/>
+          <span>React</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="40" height="40" loading="lazy"/>
+          <span>Flutter</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40" loading="lazy"/>
+          <span>Node.js</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40" loading="lazy"/>
+          <span>Python</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40" loading="lazy"/>
+          <span>Kotlin</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" width="40" height="40" loading="lazy"/>
+          <span>Swift</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" width="40" height="40" loading="lazy"/>
+          <span>Firebase</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" width="40" height="40" loading="lazy"/>
+          <span>AWS</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40" loading="lazy"/>
+          <span>Docker</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40" loading="lazy"/>
+          <span>PostgreSQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq">
+    <div class="container faq-wrap">
+      <div class="section-head" data-reveal>
+        <span class="overline">أسئلة شائعة</span>
+        <h2>أسئلة يسألها عملاؤنا</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" data-reveal>
+          <summary>كم يستغرق تطوير تطبيق موبايل؟</summary>
+          <p>يعتمد على حجم التطبيق. تطبيق بسيط يحتاج 6 إلى 10 أسابيع، متوسط الحجم 3 إلى 5 أشهر. نحدد الجدول الزمني الدقيق بعد جلسة تحليل المتطلبات.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>هل أحصل على الكود المصدري بعد انتهاء المشروع؟</summary>
+          <p>نعم، الكود المصدري ملكيتك الكاملة. نسلّمه عبر مستودع Git خاص عند اكتمال الدفع.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>ما هي آلية الدفع؟</summary>
+          <p>نقسّم الدفع عادةً على ثلاث مراحل: 30% عند التعاقد، 40% عند الانتهاء من التصميم والبرمجة، 30% عند التسليم النهائي.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>هل تقدّمون صيانة ودعماً بعد الإطلاق؟</summary>
+          <p>نعم. الضمان المجاني 60 يوماً شامل في كل المشاريع. بعده تتوفر خطط صيانة شهرية اختيارية بسعر ثابت.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>هل يمكنني متابعة سير المشروع أثناء التطوير؟</summary>
+          <p>نعم، لديك صلاحية دائمة للوصول إلى بيئة الاختبار ونتيح تقرير تقدّم أسبوعياً مع جلسة مراجعة نصف شهرية.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact bg-subtle" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info" data-reveal>
+        <span class="overline">تواصل معنا</span>
+        <h2>ابدأ مشروعك اليوم</h2>
+        <p>أرسل تفاصيل مشروعك وسنرد عليك خلال 24 ساعة عمل بعرض أولي مجاني.</p>
+        <ul class="contact-details">
+          <li>
+            <span class="ci-label">الهاتف والواتساب</span>
+            <a href="tel:+9647726540792">+964 772 654 0792</a>
+          </li>
+          <li>
+            <span class="ci-label">البريد الإلكتروني</span>
+            <a href="mailto:info@watancoder.com">info@watancoder.com</a>
+          </li>
+          <li>
+            <span class="ci-label">واتساب مباشر</span>
+            <a href="https://wa.me/9647726540792" target="_blank" rel="noopener">فتح محادثة واتساب ↗</a>
+          </li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate data-reveal>
+        <div class="form-row">
+          <div class="field">
+            <label for="fname">الاسم الكامل <span aria-hidden="true">*</span></label>
+            <input type="text" id="fname" name="name" autocomplete="name" required placeholder="محمد علي"/>
+          </div>
+          <div class="field">
+            <label for="femail">البريد الإلكتروني <span aria-hidden="true">*</span></label>
+            <input type="email" id="femail" name="email" autocomplete="email" required placeholder="name@example.com"/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="fphone">رقم الهاتف</label>
+            <input type="tel" id="fphone" name="phone" autocomplete="tel" placeholder="+964 7XX XXX XXXX"/>
+          </div>
+          <div class="field">
+            <label for="fservice">نوع الخدمة <span aria-hidden="true">*</span></label>
+            <select id="fservice" name="service" required>
+              <option value="" disabled selected>اختر الخدمة</option>
+              <option value="mobile">تطبيق موبايل</option>
+              <option value="web">موقع أو تطبيق ويب</option>
+              <option value="desktop">تطبيق سطح مكتب</option>
+              <option value="ai">حلول ذكاء اصطناعي</option>
+              <option value="ecommerce">متجر إلكتروني</option>
+              <option value="other">استشارة أو غير ذلك</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="fmsg">وصف المشروع <span aria-hidden="true">*</span></label>
+          <textarea id="fmsg" name="message" rows="5" required placeholder="اشرح فكرة مشروعك، الجمهور المستهدف، والميزات الأساسية المطلوبة..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-submit">إرسال عبر واتساب</button>
+        <p class="form-hint">سيفتح واتساب تلقائياً برسالتك جاهزة للإرسال.</p>
+        <div class="form-success" id="formSuccess" hidden role="status">
+          ✓ تم فتح واتساب برسالتك. أرسلها وسنرد عليك فوراً.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <div class="logo-mark">W</div>
+          <span>وطن <strong>كودر</strong></span>
+        </a>
+        <p>شركة برمجيات عراقية متخصصة في بناء تطبيقات الموبايل والويب وسطح المكتب.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="#services">الخدمات</a></li>
+          <li><a href="#process">آلية العمل</a></li>
+          <li><a href="#portfolio">المشاريع</a></li>
+          <li><a href="#testimonials">العملاء</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>الخدمات</h4>
+        <ul>
+          <li><a href="#services">تطبيقات الموبايل</a></li>
+          <li><a href="#services">مواقع الويب</a></li>
+          <li><a href="#services">تطبيقات سطح المكتب</a></li>
+          <li><a href="#services">الذكاء الاصطناعي</a></li>
+          <li><a href="#services">المتاجر الإلكترونية</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>تواصل معنا</h4>
+        <ul>
+          <li><a href="tel:+9647726540792">+964 772 654 0792</a></li>
+          <li><a href="mailto:info@watancoder.com">info@watancoder.com</a></li>
+          <li><a href="https://wa.me/9647726540792" target="_blank" rel="noopener">واتساب</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2024 وطن كودر. جميع الحقوق محفوظة.</p>
+        <div class="footer-legal">
+          <a href="#">سياسة الخصوصية</a>
+          <a href="#">شروط الخدمة</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
