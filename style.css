@@ -193,24 +193,19 @@ p  { color: var(--text-2); font-size: 1rem; }
   font-weight: 700;
   white-space: nowrap;
 }
-.logo strong {
-  background: var(--accent-grd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
-.logo-mark {
-  width: 36px; height: 36px;
-  background: var(--accent-grd);
-  border-radius: var(--r-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-weight: 900;
-  font-size: 1rem;
-  flex-shrink: 0;
+
+.navbar.scrolled .logo-img {
+  height: 40px;
 }
+
+/* إزالة الـ logo-mark القديم إن وُجد */
+.logo-mark { display: none; }
 
 .nav-links {
   display: flex;
